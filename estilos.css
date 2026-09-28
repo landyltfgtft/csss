@@ -14,12 +14,10 @@
   font-family: "Snow Landy";
   src: url("roboto/SNOW LANDY.ttf");
 }
-
 @font-face {
   font-family: "TaylorGothic";
   src: url("roboto/TaylorGothic.otf");
 }
-
 @font-face {
   font-family: "Zoey Elizabeth";
   src: url("roboto/Zoey Elizabeth.otf");
@@ -49,11 +47,46 @@ a:hover {
   box-shadow: 0 0 20px yellow;
 }
 
-.practica1 { font-family: "Zoey Elizabeth"; }
-.practica2 { font-family: "Hola Zozo"; }
-.practica3 { font-family: "LandyNotes"; }
-.practica4 { font-family: "Snow Landy"; }
-.practica5 { font-family: "TaylorGothic"; }
+.practica1 {
+  font-family: "Zoey Elizabeth";
+  border-radius: 20px; /* forma rectangular con esquinas suaves */
+  background: linear-gradient(45deg, purple, pink);
+  box-shadow: 0px 0px 25px violet;
+}
+
+.practica2 {
+  font-family: "Hola Zozo";
+  border-radius: 10px; /* cuadrado con esquinas ligeras */
+  background: red;
+  box-shadow: 5px 5px 15px black;
+}
+
+.practica3 {
+  font-family: "LandyNotes";
+  border-radius: 0px 50px 0px 50px; /* diagonal */
+  background: white;
+  color: black;
+  border: 5px groove gold;
+  box-shadow: 0px 0px 30px orange, inset 0px 0px 15px gold;
+}
+
+.practica4 {
+  font-family: "Snow Landy";
+  border-radius: 50%; /* circular */
+  width: 200px;
+  height: 200px;
+  line-height: 180px;
+  background: navy;
+  border: 5px solid red;
+  box-shadow: 0px 0px 20px red, 0px 0px 40px blue;
+}
+
+.practica5 {
+  font-family: "TaylorGothic";
+  border-radius: 0px 50px 0px 50px; /* forma diagonal */
+  background: darkred;
+  box-shadow: 0px 10px 20px crimson, inset 0px 0px 10px black;
+}
 
 @keyframes brillo {
   0% { box-shadow: 0 0 10px #00eeff; }
