@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Zoey Elizabeth";
+  src: url("Zoey Elizabeth.otf");
+}
+@font-face {
+  font-family: "Hola Zozo";
+  src: url("roboto/Hola Zozo.otf");
+}
+@font-face {
+  font-family: "LandyNotes";
+  src: url("roboto/LandyNotes.ttf");
+}
+@font-face {
+  font-family: "Snow Landy";
+  src: url("roboto/SNOW LANDY.ttf");
+}
+
+@font-face {
+  font-family: "TaylorGothic";
+  src: url("roboto/TaylorGothic.otf");
+}
+
+@font-face {
+  font-family: "Zoey Elizabeth";
+  src: url("roboto/Zoey Elizabeth.otf");
+}
+
+/* Estilo general para todos los enlaces */
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background: black;
+  color: white;
+  width: 300px;
+  height: 50px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 5px groove #00eeff;
+  border-radius: 50px;
+  font-size: 30px;
+  animation: brillo 2s infinite;
+  transition: 0.5s ease all;
+}
+
+a:hover {
+  background: red;
+  color: yellow;
+  box-shadow: 0 0 20px yellow;
+}
+
+.practica1 { font-family: "Zoey Elizabeth"; }
+.practica2 { font-family: "Hola Zozo"; }
+.practica3 { font-family: "LandyNotes"; }
+.practica4 { font-family: "Snow Landy"; }
+.practica5 { font-family: "TaylorGothic"; }
+
+@keyframes brillo {
+  0% { box-shadow: 0 0 10px #00eeff; }
+  50% { box-shadow: 0 0 30px #00eeff; }
+  100% { box-shadow: 0 0 10px #00eeff; }
+}
