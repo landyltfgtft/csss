@@ -76,9 +76,9 @@ a:hover {
   width: 200px;
   height: 200px;
   line-height: 180px;
-  background: navy;
-  border: 5px solid red;
-  box-shadow: 0px 0px 20px red, 0px 0px 40px blue;
+  background: rgb(69, 250, 133);
+  border: 5px solid rgb(194, 135, 8);
+  box-shadow: 0px 0px 20px rgb(66, 236, 100), 0px 0px 40px rgb(203, 142, 27);
 }
 
 .practica5 {
