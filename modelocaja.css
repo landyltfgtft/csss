@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+header h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.ejemplo {
+  background: lightblue;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid navy;
+  width: 200px;
+  text-align: center;
+}
+
+.caja1 { padding: 50px; background: #e0ffff; }
+.caja2 { border: 6px double purple; background: #fafad2; }
+.caja3 { margin: 100px auto; background: #90ee90; }
+.caja4 { border: 4px solid orange; box-shadow: 5px 5px 10px gray; background: #ffe4b5; }
+.caja5 { width: 120px; height: 80px; background: pink; margin: 20px auto; }

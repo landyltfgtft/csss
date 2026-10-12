@@ -93,3 +93,57 @@ a:hover {
   50% { box-shadow: 0 0 30px #00eeff; }
   100% { box-shadow: 0 0 10px #00eeff; }
 }
+.practica6 {
+  font-family: "LandyNotes";
+  border-radius: 30px;
+  background: teal;
+  box-shadow: 0px 0px 25px aqua;
+}
+
+.practica7 {
+  font-family: "Snow Landy";
+  border-radius: 0px;
+  background: darkblue;
+  color: white;
+  box-shadow: inset 0px 0px 15px lightblue;
+}
+
+.practica8 {
+  font-family: "TaylorGothic";
+  border-radius: 100px 0px 100px 0px;
+  background: darkgreen;
+  box-shadow: 5px 5px 20px lime;
+}
+
+.practica9 {
+  font-family: "Zoey Elizabeth";
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  line-height: 160px;
+  background: purple;
+  box-shadow: 0px 0px 25px violet;
+}
+
+.practica10 {
+  font-family: "Hola Zozo";
+  border-radius: 15px;
+  background: orange;
+  box-shadow: 0px 0px 20px brown;
+}
+
+.practica11 {
+  font-family: "LandyNotes";
+  border-radius: 0px 40px 40px 0px;
+  background: pink;
+  color: black;
+  box-shadow: 0px 0px 25px deeppink;
+}
+
+.practica12 {
+  font-family: "Snow Landy";
+  border-radius: 5px;
+  background: navy;
+  color: white;
+  box-shadow: 0px 0px 30px cyan;
+}

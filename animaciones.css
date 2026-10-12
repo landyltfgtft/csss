@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+header h1 {
+  text-align: center;
+  color: darkred;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.ejemplo {
+  margin: 15px auto;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border: 2px solid black;
+  background: #fff;
+}
+
+/* Ejemplo 1: cambio de color */
+.anim1 {
+  animation: cambioColor 3s infinite alternate;
+}
+@keyframes cambioColor {
+  from { background: lightblue; }
+  to { background: lightgreen; }
+}
+
+/* Ejemplo 2: movimiento horizontal */
+.anim2 {
+  position: relative;
+  animation: mover 4s infinite alternate;
+}
+@keyframes mover {
+  from { left: 0; }
+  to { left: 100px; }
+}
+
+/* Ejemplo 3: escala */
+.anim3 {
+  animation: escalar 2s infinite alternate;
+}
+@keyframes escalar {
+  from { transform: scale(1); }
+  to { transform: scale(1.5); }
+}
+
+/* Ejemplo 4: rotación */
+.anim4 {
+  animation: rotar 5s infinite linear;
+}
+@keyframes rotar {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Ejemplo 5: animación infinita combinada */
+.anim5 {
+  animation: combinado 6s infinite alternate;
+}
+@keyframes combinado {
+  0% { background: pink; transform: translateX(0); }
+  50% { background: yellow; transform: translateX(50px) scale(1.2); }
+  100% { background: orange; transform: translateX(0) scale(1); }
+}

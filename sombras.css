@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+header h1 {
+  text-align: center;
+  color: darkviolet;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.ejemplo {
+  margin: 15px auto;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border: 2px solid black;
+  background: #fff;
+}
+
+
+.sombra1 { box-shadow: 5px 5px 10px gray; }
+.sombra2 { box-shadow: 10px 10px 20px rgba(0,0,0,0.5); }
+.sombra3 { box-shadow: 5px 5px 10px red, -5px -5px 10px blue; }
+.sombra4 { box-shadow: inset 0px 0px 15px green; }
+.sombra5 { 
+  border: none; 
+  background: transparent; 
+  font-size: 24px; 
+  text-shadow: 3px 3px 5px black; 
+}

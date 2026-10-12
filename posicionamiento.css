@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+header h1 {
+  text-align: center;
+  color: darkorange;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.ejemplo {
+  margin: 15px auto;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  border: 2px solid black;
+  background: #e0e0e0;
+}
+
+.pos1 { position: static; background: lightblue; }
+
+.pos2 { 
+  position: relative; 
+  top: 10px; 
+  left: 20px; 
+  background: lightgreen; 
+}
+
+.pos3 { 
+  position: absolute; 
+  top: 50px; 
+  left: 50px; 
+  background: pink; 
+}
+
+.pos4 { 
+  position: fixed; 
+  bottom: 10px; 
+  right: 10px; 
+  background: yellow; 
+}
+
+.pos5 { 
+  position: sticky; 
+  top: 0; 
+  background: violet; 
+}

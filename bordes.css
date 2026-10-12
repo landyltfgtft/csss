@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+header h1 {
+  text-align: center;
+  color: darkred;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.ejemplo {
+  background: #f0f0f0;
+  margin: 10px auto;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+}
+
+/* Ejemplos de bordes */
+.borde1 { border: 4px solid black; }
+.borde2 { border: 4px dotted green; }
+.borde3 { border: 4px dashed blue; }
+.borde4 { border: 6px double purple; }
+.borde5 { border: 5px solid; border-color: red green blue orange; }

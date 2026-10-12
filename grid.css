@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+header h1 {
+  text-align: center;
+  color: darkslateblue;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.ejemplo {
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  border: 2px solid black;
+  background: #fff;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 10px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: 150px auto;
+  gap: 10px;
+}
+
+.grid5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.ejemplo div {
+  background: lightblue;
+  padding: 15px;
+  text-align: center;
+}

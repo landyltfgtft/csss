@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+header h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.ejemplo {
+  margin: 10px auto;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  border: 2px solid black;
+  background: #e0e0e0;
+}
+
+
+.display1 { display: block; background: lightgreen; }
+.display2 { display: inline; background: lightblue; }
+.display3 { display: inline-block; background: orange; width: 120px; }
+.display4 { display: none; } 
+.display5 { display: flex; justify-content: center; background: pink; }
