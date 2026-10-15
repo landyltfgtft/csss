@@ -23,61 +23,101 @@ main{
 footer{
     background: pink;
 }
-
-@media (max-width: 768px) {
-    header{
-        background: lightcoral;
+    
+    @media (min-width: 0px) and (max-width: 399px) {
+    body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     }
-    nav{
-        background: aqua;
+    header {
+       background-color: rgb(112, 0, 217);
+        
     }
-    main{
-        background: lightyellow;
+    nav {
+        background-color: rgb(226, 255, 182);
     }
-    footer{
-        background: lightpink;
+    main {
+        background-color: rgb(69, 125, 255);
+    }
+    footer {
+        background-color: pink;
+        
     }
 }
-
-    @media (min-width: 1024px) {
-        body{
-            font-size: 50px;
-            color: white;
-        }
+@media (min-width: 400px) and (max-width: 767px) {
+    body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
     }
+    header {
+       background-color: rgb(114, 120, 163);
+        
+    }
+    nav {
+        background-color: rgb(105, 173, 108);
+    }
+    main {
+        background-color: rgb(220, 225, 255);
+    }
+    footer {
+        background-color: rgb(173, 248, 225);
+        
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4fr ;
+   
     
-    @media (min-width: 1024px) and (max-width: 2021px) {
-        body{
-            width: 100vw;
-            height: 100vh;
-            display: grid;
-            grid-template-columns: 1fr 4fr;
-            grid-template-rows: 1fr 10fr 1fr;
-        }
-        header{
-            grid-column: 1/3;
-            grid-row: 1/2;
-        }
-        nav{
-            grid-column: 1/2;
-            grid-row: 2/3;
-        }
-        main{
-            grid-column: 2/3;
-            grid-row: 2/3;
-        }
-        footer{
-            grid-column: 1/3;
-            grid-row: 3/4;
-        }
     }
-    @media (min-width: 400px) and (max-width: 1023px) {
-        body{
-            width: 100vw;
-            height: 100vh;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr 10fr 1fr;
-
-        }
+    header {
+       background-color: aqua;
+        
     }
+    nav {
+        background-color: rgb(255, 255, 218);
+    }
+    main {
+        background-color: rgb(255, 146, 255);
+    }
+    footer {
+        background-color: rgb(244, 152, 213);
+        
+    }
+}
+@media (min-width: 1024px) and (max-width: 1920px) {
+    body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    text-align: center;
+    }
+    header {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    nav {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    main {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    footer {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+}
