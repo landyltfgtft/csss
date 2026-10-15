@@ -22,7 +22,7 @@ header{
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 15px; /* Espacio entre tu imagen circular y el texto EXAMEN */
+   gap: 15px; 
    background: #ffffffcc;
    border-radius: 10px;
    font-size: 28px;
@@ -30,7 +30,7 @@ header{
    color: #444;
 }
 
-/* CLASE NUEVA PARA HACER LA IMAGEN CIRCULAR Y PEQUEÑA */
+
 .header-img {
     width: 45px;
     height: 45px;
